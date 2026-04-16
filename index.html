@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+ <script>
+  var senha = prompt("Este site é privado. Por favor, digite a senha:");
+  if (senha !== "advocacy") {
+    alert("Senha incorreta!");
+    window.location.href = "https://google.com"; // Manda o intruso embora
+  }
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="App interativo do Playbook de Advocacy Institucional em Saúde Suplementar — Edição Três Esferas — Edição Três Esferas">
